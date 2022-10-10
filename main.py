@@ -1,10 +1,7 @@
 # ******************************
 # Make your Code
 # ******************************
-names = []
-
-for i in range(5):
-    names.append(input())
+names = input().split()
 
 shortest = names[0]
 longest = names[0]
